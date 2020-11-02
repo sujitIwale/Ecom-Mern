@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom';
 const Categories = () => {
     return (
         <div>
-            <li>
+            <p>
               <NavLink to='/products'>Categories</NavLink>
-           </li> 
+           </p> 
         </div>
     )
 }
