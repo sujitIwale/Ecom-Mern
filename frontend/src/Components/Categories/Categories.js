@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 
 const Categories = () => {
     return (
-        <div>
-            <p>
-              <NavLink to='/products'>Categories</NavLink>
-           </p> 
+        <div><NavLink to='/products'>
+            <p className='td-none white categories'>
+              Categories
+           </p> </NavLink>
         </div>
     )
 }
