@@ -4,9 +4,9 @@ import 'react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
 
 const slideImages = [
-    'https://react-slideshow.herokuapp.com/assets/images/slide_7.jpg',
-    'https://react-slideshow.herokuapp.com/assets/images/slide_7.jpg',
-    'https://react-slideshow.herokuapp.com/assets/images/slide_7.jpg'
+    'https://rukminim1.flixcart.com/flap/844/140/image/ec2ec766d8363efb.jpg?q=50',
+    'https://rukminim1.flixcart.com/flap/844/140/image/ec2ec766d8363efb.jpg?q=50',
+    'https://rukminim1.flixcart.com/flap/844/140/image/ec2ec766d8363efb.jpg?q=50'
 ];
 
 const ImageSwiper = () => {
@@ -15,17 +15,17 @@ const ImageSwiper = () => {
             <Slide easing="ease">
                 <div className="each-slide">
                     <div style={{ 'backgroundImage': `url(${slideImages[0]})` }}>
-                        <span>Slide 1</span>
+
                     </div>
                 </div>
                 <div className="each-slide">
                     <div style={{ 'backgroundImage': `url(${slideImages[1]})` }}>
-                        <span>Slide 2</span>
+ 
                     </div>
                 </div>
                 <div className="each-slide">
                     <div style={{ 'backgroundImage': `url(${slideImages[2]})` }}>
-                        <span>Slide 3</span>
+
                     </div>
                 </div>
             </Slide>

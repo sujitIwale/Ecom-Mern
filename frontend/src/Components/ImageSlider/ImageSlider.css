@@ -1,9 +1,10 @@
 @import "react-slideshow-image/dist/styles.css";
 
 .each-slide > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   height: 400px;
 }
@@ -13,4 +14,16 @@
   font-size: 20px;
   background: #efefef;
   text-align: center;
+}
+
+@media (max-width: 780px) {
+  .each-slide > div {
+    height: 270px;
+  }
+}
+
+@media (max-width: 400px) {
+    .each-slide > div {
+      height: 220px;
+    }
 }

@@ -34,6 +34,9 @@
 .space-bet {
   justify-content: space-evenly;
 }
+.wrap {
+  flex-wrap: wrap;
+}
 /*Text decoration-none*/
 .td-none {
   text-decoration: none;
@@ -89,6 +92,17 @@ a {
 .pa-r-6 {
   padding-right: 30px;
 }
+/*Card */
+.card {
+  position: relative;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: hidden;
+  background: white;
+}
+
 
 /* Private Media styles only for this project */
 
