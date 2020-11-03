@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react';
-import { BrowserRouter as Router, Switch,Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Navigation/Header';
+import Home from './Pages/Home';
 
 function App() {
   return (
@@ -9,10 +10,10 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route>
-
+          <Route path='/'>
+            <Home />
           </Route>
-         <Redirect to='/' />
+          <Redirect to='/' />
         </Switch>
       </Router>
     </Fragment>

@@ -1,38 +1,99 @@
-/*Buttons */ 
+/*Buttons */
 .button {
-    color: black;
-    text-transform: uppercase;
-    padding: 5px;
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
 }
 .primary-blue {
-    background: #0000FF;
+  background: #0000ff;
 }
 .primary-orange {
-    background: #ee9209;
+  background: #ee9209;
 }
 .button:hover {
-    background: #434343;
-    color: white ;
-    letter-spacing: 1px;
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
+  background: #434343;
+  color: white;
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
 /*Colors */
 .white {
-    color: white;
+  color: white;
 }
-
+/*Backgrounds */
+.bg-black-faded {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* Display Flex */
+.flex {
+  display: flex;
+}
+.space-bet {
+  justify-content: space-evenly;
+}
 /*Text decoration-none*/
 .td-none {
-    text-decoration: none;
+  text-decoration: none;
+}
+/*list style none */
+.ls-none {
+  list-style: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /*Cursor*/
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
+}
+/* Center */
+.center {
+  text-align: center;
+}
+/*Top*/
+.top-0 {
+  top: 0;
+}
+/*Height*/
+.ht-1 {
+  height: 10px;
+}
+.ht-2 {
+  height: 20px;
+}
+.ht-3 {
+  height: 30px;
+}
+.ht-4 {
+  height: 40px;
+}
+/* Padiing */
+.pa-r-1 {
+  padding-right: 5px;
+}
+.pa-r-2 {
+  padding-right: 10px;
+}
+.pa-r-3 {
+  padding-right: 15px;
+}
+.pa-r-4 {
+  padding-right: 20px;
+}
+.pa-r-5 {
+  padding-right: 25px;
+}
+.pa-r-6 {
+  padding-right: 30px;
+}
+
+/* Private Media styles only for this project */
+
+@media (max-width: 768px) {
+  .CategoryBar {
+    display: none;
+  }
 }
